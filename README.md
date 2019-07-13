@@ -4,8 +4,8 @@ This repo is Learning Tracking repo for Postgres with NOdeJs , follow the link i
    https://www.youtube.com/watch?v=67OhLlFPqFQ ,
    https://www.youtube.com/watch?v=6jbrWF3BWM0 ,
    https://github.com/bradtraversy/codegig ,   code by Brad
-
-
+    also check guru99
+    https://www.guru99.com/postgresql-tutorial.html
 
 # install of posgres in ubuntu 18.04
    https://www.youtube.com/watch?v=-LwI4HMR_Eg ,
@@ -24,16 +24,23 @@ This repo is Learning Tracking repo for Postgres with NOdeJs , follow the link i
 # install of pgAdmin4 for Browser in ubuntu 18.04
 
     https://tecadmin.net/install-pgadmin4-on-ubuntu/,
-    
+
     sudo apt-get install pgadmin4 pgadmin4-apache2
 
 
 # start the posgres from terminal
     service postgresql start
 
+# Basic commands
+    $ sudo su - postgres
+    $ psql
+    $ \l
+    $ ALTER USER postgres PASSWORD 'newPassword';
+
 # open pgAdmin4
 
 connect to by typing the passoword and server details
+    see Guru99
 
 # Basic from Pgadmin
 1 create database
