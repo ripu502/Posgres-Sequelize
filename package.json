@@ -1,0 +1,29 @@
+{
+  "name": "posgres-sequelize",
+  "version": "1.0.0",
+  "description": "This repo is Learning Tracking repo for Postgres with NOdeJs , follow the link if issue https://www.youtube.com/watch?v=bOHysWYMZM0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ripu502/Posgres-Sequelize.git"
+  },
+  "author": "Ripudaman Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ripu502/Posgres-Sequelize/issues"
+  },
+  "homepage": "https://github.com/ripu502/Posgres-Sequelize#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
