@@ -4,8 +4,18 @@ const db = require('./config/database');
 
 const app = express();
 
-app.use(router);
+// app.use(express.bodyParser());
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
 
+// setting the view engine
+app.set('view engine', 'ejs');
+app.set('views', 'views');
+
+// test for the databae connection
+
+
+app.use(router);
 db.authenticate()
     .then(() => {
         console.log('databse connected');

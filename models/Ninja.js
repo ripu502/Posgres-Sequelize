@@ -14,7 +14,7 @@ const Ninja = db.define('ninja', {
   budget: {
     type: Sequelize.STRING
   },
-  contact_email: {
+  email: {
     type: Sequelize.STRING
   }
 })
