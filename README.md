@@ -1,15 +1,31 @@
 # Posgres-Sequelize
 This repo is Learning Tracking repo for Postgres with NOdeJs , follow the link if issue 
-   https://www.youtube.com/watch?v=bOHysWYMZM0
-   https://www.youtube.com/watch?v=67OhLlFPqFQ
-   https://www.youtube.com/watch?v=6jbrWF3BWM0
-   https://github.com/bradtraversy/codegig     code by Brad
+   https://www.youtube.com/watch?v=bOHysWYMZM0 ,
+   https://www.youtube.com/watch?v=67OhLlFPqFQ ,
+   https://www.youtube.com/watch?v=6jbrWF3BWM0 ,
+   https://github.com/bradtraversy/codegig ,   code by Brad
+
 
 
 # install of posgres in ubuntu 18.04
+   https://www.youtube.com/watch?v=-LwI4HMR_Eg ,
+   https://tecadmin.net/install-postgresql-server-on-ubuntu/ ,
+    
+    $ sudo apt-get install wget ca-certificates
+    $ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+    $ sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+
+    $ sudo apt-get install postgresql postgresql-contrib
+    $ sudo su - postgres
+    $ psql
+
 
 
 # install of pgAdmin4 for Browser in ubuntu 18.04
+
+    https://tecadmin.net/install-pgadmin4-on-ubuntu/,
+    
+    sudo apt-get install pgadmin4 pgadmin4-apache2
 
 
 # start the posgres from terminal
