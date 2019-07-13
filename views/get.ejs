@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <hr>
+    <a href="/deleteAll"><button>Delete All</button> </a>
+    <hr>
+    <ul>
+        <% for(var i=0; i<n.length; i++) {%>
+        <h1>Data <%= n[i].id%></h1>
+        <li> title is ===========> <%= n[i].title %></li>
+        <li> desciption is ===========> <%= n[i].description %></li>
+        <li> email is ===========> <%= n[i].email %></li>
+        <li> createdAt is ===========> <%= n[i].createdAt %></li>
+        <li> updatedAt is ===========> <%= n[i].updatedAt %></li>
+        <li> budget is ===========> <%= n[i].budget %></li>
+        <li> technologies is ===========> <%= n[i].technologies %></li>
+
+        <button>Update</button>
+        <button>Delete</button>
+        <% } %>
+    </ul>
+</body>
+
+</html>

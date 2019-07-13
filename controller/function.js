@@ -48,3 +48,29 @@ module.exports.postAdd = (req, res, next) => {
             console.log('error occured' + err);
         })
 }
+
+module.exports.get = (req, res, next) => {
+
+
+    Ninja.findAll()
+        .then((ninjas) => {
+            // res.send(ninjas)
+            res.render('get', { n: ninjas });
+        })
+        .catch((err) => {
+            console.log('some error is occured' + err);
+            res.send('some error is occured from test catch')
+        })
+    // res.send('Page not Found');
+}
+
+
+
+module.exports.deleteAll = (req, res, next) => {
+    Ninja.destroy({where : {id : '11'}})
+    .then(()=>{
+        db.query("ALTER SEQUENCE product_id_seq RESTART WITH 1453;");
+        console.log('deleted all the data')
+        res.redirect('/get');
+    });
+}
